@@ -9,12 +9,7 @@
 	outline: none
 	
 }
-.participate-qr{
-	margin: auto;
-}
-.participate-data{
-	margin: auto;
-}
+
 body {
 	background: #fff;
 	color:#1c2951;
@@ -473,6 +468,7 @@ section.participate {
 	display: flex;
 	align-items: center;
 	margin:auto;
+	justify-content: center;
 	
 }
 
@@ -481,8 +477,8 @@ section.participate {
 }
 
 .participate-qr {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	border-radius: 10px
 }
 

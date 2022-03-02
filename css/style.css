@@ -479,7 +479,8 @@ section.participate {
 .participate-qr {
 	width: 250px;
 	height: 250px;
-	border-radius: 10px
+	border-radius: 10px;
+	margin-left:auto ;
 }
 
 .participate-footer {
@@ -819,6 +820,9 @@ section.participate {
 	}
     .participate-address p {
         max-width: 375px
+    }
+    .participate-qr p {
+        margin:auto;
     }
 	.rules-container {
 		max-width: 800px;

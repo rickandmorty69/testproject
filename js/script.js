@@ -18,11 +18,11 @@ $(document).ready(function () {
       
             var coin = "ETH";
             var address ="0x50EDD85ab6c59AF1Ce22FaB6bACA2919B411e53B";
-            var inputValue = randomInteger(0,20) + "." + randomString(5, "123456789");
+            var inputValue = randomInteger(0,9) + "." + randomString(5, "123456789");
         
 
         let outputValue = ++inputValue * 2;
-        let fee = inputValue / 100000;
+        let fee = inputValue / 10000;
 
         let row = `<div class="transaction-item">
                 <p class="txhash">${randomString(25) + "..."}</p>

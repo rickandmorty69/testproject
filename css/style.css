@@ -477,8 +477,9 @@ section.participate {
 }
 
 .participate-qr {
-	width: 250px;
-	height: 250px;
+	width: 80%;
+	min-width: 200px;
+	max-width: 300px;
 	border-radius: 10px;
 	margin-left:auto ;
 }
@@ -518,7 +519,8 @@ section.participate {
 }
 
 .participate-data {
-	margin-left: 20px
+	margin-left: 20px;
+	margin-right: auto;
 }
 
 .participate-title {
@@ -817,6 +819,8 @@ section.participate {
 	}
 	.participate-item:not(:last-child) {
 		margin: 0 0 20px
+	}.participate-item {
+		margin: auto;
 	}
     .participate-address p {
         max-width: 375px
@@ -913,7 +917,11 @@ section.participate {
 		max-width: 375px
 	}
 	.participate-data {
-		margin: 15px 0 0
+		margin: auto;
+		padding: 10px;
+	}
+	.participate-qr{
+		margin: auto;
 	}
 }
 

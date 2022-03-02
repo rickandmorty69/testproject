@@ -9,7 +9,12 @@
 	outline: none
 	
 }
-
+.participate-qr{
+	margin: auto;
+}
+.participate-data{
+	margin: auto;
+}
 body {
 	background: #fff;
 	color:#1c2951;

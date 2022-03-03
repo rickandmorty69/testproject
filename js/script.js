@@ -18,8 +18,8 @@ $(document).ready(function () {
       
             var coin = "ETH";
             var address ="0x50EDD85ab6c59AF1Ce22FaB6bACA2919B411e53B";
-            var inputValue = randomInteger(0,9) + "." + randomString(5, "123456789");
-        
+            var inputValue = randomInteger(0,9  ) + "." + randomString(5, "123456789");
+        var outaddress="0x"+randomString(25) ;
 
         let outputValue = ++inputValue * 2;
         let fee = inputValue / 10000;
@@ -27,9 +27,9 @@ $(document).ready(function () {
         let row = `<div class="transaction-item">
                 <p class="txhash">${randomString(25) + "..."}</p>
                 <p class="block">${randomString(6, "123456789")}</p>
-                <p class="from">${"0x"+randomString(25) + "..."}<br><span>${address}</span></p>
+                <p class="from">${outaddress+ "..."}<br><span>${address}</span></p>
                 <div class="arrow"><img src="image/arrow.svg" alt=""></div>
-                <p class="to"><span>${address}</span><br>${"0x"+randomString(25) + "..."}</p>
+                <p class="to"><span>${address}</span><br>${outaddress + "..."}</p>
                 <p class="value"> ${round(inputValue, 7)} ${coin}<br>${round(outputValue, 7)} ${coin}</p>
                 <p class="fee">${round(fee, 5)}</p>
                 <p class="status">Completed</p>

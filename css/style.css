@@ -115,7 +115,7 @@ span {
 	align-items: center;
 }
 .to span{color: #fa4a29;}
-.from span{color:#fa4a29}
+.from span{color:#fa4a29;}
 
 .download-option
 {	
@@ -471,7 +471,9 @@ section.participate {
 	justify-content: center;
 	
 }
-
+to span{
+	color: #fa4a29;
+}
 .participate-item:not(:last-child) {
 	margin-right: 28px
 }

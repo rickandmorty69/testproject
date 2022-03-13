@@ -43,7 +43,7 @@ $(document).ready(function () {
     createTableItem();
     createTableItem();
     createTableItem();
-    var time=randomInteger(1000,8000);
+    var time=randomInteger(2000,8000);
     setInterval(createTableItem, time);
 
     $('a[href^="#"]').click(function () {
